@@ -1,0 +1,37 @@
+inst,class,exchange,name,subclass,hrsinday,lotsize,crossrate,dolconv
+CL,EN,CME,Crude Oil Futures,Crude Oil,5.5,1000,1,1
+EMD,EQ,CME,E-mini S&P MidCap 400 Futures,US Index,6.75,100,1,1
+ES,EQ,CME,E-mini S&P 500 Futures,US Index,6.75,50,1,1
+GC,MT,CME,Gold Futures,Precious,5,100,1,1
+GF,AG,CME,Feeder Cattle Futures,Livestock,7,50000,1,0.01
+HE,AG,CME,Lean Hog Futures,Livestock,7,40000,1,0.01
+HG,MT,CME,Copper Futures,Base,5,25000,1,1
+HO,EN,CME,NY Harbor ULSD Futures,Refined Products,5.5,42000,1,1
+KE,AG,CME,KC Hard Red Winter (HRW) Wheat Futures,Grain And Oilseed,5,5000,1,0.01
+LE,AG,CME,Live Cattle Futures,Livestock,5,40000,1,0.01
+NG,EN,CME,Natural Gas (Henry Hub) Physical Futures,Natural Gas,5.5,10000,1,1
+NQ,EQ,CME,E-mini NASDAQ 100 Futures,US Index,6.75,20,1,1
+PA,MT,CME,Palladium Futures,Precious,5,100,1,1
+PL,MT,CME,Platinum Futures,Precious,5,50,1,1
+RB,EN,CME,RBOB Gasoline Physical Futures,Refined Products,5.5,42000,1,1
+SI,MT,CME,Silver Futures,Precious,5,5000,1,1
+UB,IR,CME,Ultra U.S. Treasury Bond Futures,US Treasury,6.5,1000,1,1
+YM,EQ,CME,E-mini Dow ($5) Futures,US Index,6.75,5,1,1
+ZB,IR,CME,U.S. Treasury Bond Futures,US Treasury,6.5,1000,1,1
+ZC,AG,CME,Corn Futures,Grain And Oilseed,5,5000,1,0.01
+ZF,IR,CME,5 Yr Note Futures,US Treasury,6.5,1000,1,1
+ZL,AG,CME,Soybean Oil Futures,Grain And Oilseed,5,60000,1,0.01
+ZM,AG,CME,Soybean Meal Futures,Grain And Oilseed,5,100,1,0.01
+ZN,IR,CME,10 Yr Note Futures,US Treasury,6.5,1000,1,1
+ZS,AG,CME,Soybean Futures,Grain And Oilseed,5,5000,1,0.01
+ZT,IR,CME,2 Yr Note Futures,US Treasury,6.5,2000,1,1
+ZW,AG,CME,Wheat Futures,Grain And Oilseed,5,5000,1,0.01
+6A,FX,CME,Australian Dollar Futures,Majors,6.5,100000,0.775,1
+6B,FX,CME,British Pound Futures,Majors,6.5,62500,1.43,1
+6C,FX,CME,Canadian Dollar Futures,Majors,6.5,100000,0.786,1
+6J,FX,CME,Japanese Yen Futures,Majors,6.5,12500000,0.00915,1
+6M,FX,CME,Mexican Peso Futures,Emerging Market,6.5,500000,0.0571,1
+6N,FX,CME,New Zealand Dollar Futures,Majors,6.5,100000,0.691,1
+6S,FX,CME,Swiss Franc Futures,Majors,6.5,125000,1.03,1
+GE,IR,CME,Eurodollar Futures,Stirs,6.5,2500,1,1
+6E,FX,CME,Euro FX Futures,Majors,6.5,125000,1.131,1

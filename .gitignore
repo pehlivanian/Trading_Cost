@@ -1,0 +1,7 @@
+*~
+*.txt
+out
+*.pyc
+*.dot
+*.o
+*.d

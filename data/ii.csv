@@ -1,0 +1,37 @@
+inst,class,exchange,name,subclass,notional,ctype,minpxincr,dispfactor
+CL,EN,CME,Crude Oil Futures,Crude Oil,10,OT,1,0.01
+EMD,EQ,CME,E-mini S&P MidCap 400 Futures,US Index,1,OT,10,0.01
+ES,EQ,CME,E-mini S&P 500 Futures,US Index,0.5,OT,25,0.01
+GC,MT,CME,Gold Futures,Precious,10,OT,1,0.1
+GF,AG,CME,Feeder Cattle Futures,Livestock,0.5,OT,25,0.001
+HE,AG,CME,Lean Hog Futures,Livestock,0.4,OT,25,0.001
+HG,MT,CME,Copper Futures,Base,2.5,OT,5,0.0001
+HO,EN,CME,NY Harbor ULSD Futures,Refined Products,4.2,OT,1,0.0001
+KE,AG,CME,KC Hard Red Winter (HRW) Wheat Futures,Grain And Oilseed,50,OT,0.25,1
+LE,AG,CME,Live Cattle Futures,Livestock,0.4,OT,25,0.001
+NG,EN,CME,Natural Gas (Henry Hub) Physical Futures,Natural Gas,10,OT,1,0.001
+NQ,EQ,CME,E-mini NASDAQ 100 Futures,US Index,0.2,OT,25,0.01
+PA,MT,CME,Palladium Futures,Precious,1,OT,5,0.01
+PL,MT,CME,Platinum Futures,Precious,5,OT,1,0.1
+RB,EN,CME,RBOB Gasoline Physical Futures,Refined Products,4.2,OT,1,0.0001
+SI,MT,CME,Silver Futures,Precious,5,OT,5,0.001
+UB,IR,CME,Ultra U.S. Treasury Bond Futures,US Treasury,1000,OT,0.03125,1
+YM,EQ,CME,E-mini Dow ($5) Futures,US Index,5,OT,1,1
+ZB,IR,CME,U.S. Treasury Bond Futures,US Treasury,1000,OT,0.03125,1
+ZC,AG,CME,Corn Futures,Grain And Oilseed,50,OT,0.25,1
+ZF,IR,CME,5 Yr Note Futures,US Treasury,1000,OT,0.0078125,1
+ZL,AG,CME,Soybean Oil Futures,Grain And Oilseed,6,OT,1,0.01
+ZM,AG,CME,Soybean Meal Futures,Grain And Oilseed,10,OT,1,0.1
+ZN,IR,CME,10 Yr Note Futures,US Treasury,1000,OT,0.015625,1
+ZS,AG,CME,Soybean Futures,Grain And Oilseed,50,OT,0.25,1
+ZT,IR,CME,2 Yr Note Futures,US Treasury,2000,OT,0.0078125,1
+ZW,AG,CME,Wheat Futures,Grain And Oilseed,50,OT,0.25,1
+6A,FX,CME,Australian Dollar Futures,Majors,10,OT,1,0.0001
+6B,FX,CME,British Pound Futures,Majors,6.25,OT,1,0.0001
+6C,FX,CME,Canadian Dollar Futures,Majors,10,OT,1,0.0001
+6J,FX,CME,Japanese Yen Futures,Majors,6.25,OT,0.5,1.00E-06
+6M,FX,CME,Mexican Peso Futures,Emerging Market,0.5,OT,10,1.00E-06
+6N,FX,CME,New Zealand Dollar Futures,Majors,10,OT,1,0.0001
+6S,FX,CME,Swiss Franc Futures,Majors,12.5,OT,1,0.0001
+GE,IR,CME,Eurodollar Futures,Stirs,25,OT,0.5,0.01
+6E,FX,CME,Euro FX Futures,Majors,12.5,OT,0.5,0.0001
