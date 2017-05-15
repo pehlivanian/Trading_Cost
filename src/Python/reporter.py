@@ -6,7 +6,6 @@ from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.ticker import NullFormatter
 from matplotlib import mlab, cm
 from scipy import stats
-import statsmodels.formula.api as sm
 from sklearn.linear_model import LinearRegression
 from reporter_impl import *
 

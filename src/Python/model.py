@@ -3,6 +3,7 @@ import os
 import sys
 import string
 import numpy as np
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
@@ -22,7 +23,7 @@ class CMECostModel(DataElement):
         self.working_dir = working_dir
         self.data = CMEdata.CostData()
         if (not zero_intcpt and spread_term):
-            print "This particular model is not supported."
+            print("This particular model is not supported.")
             sys.exit()
         if (zero_intcpt):            
             self.model_curve_guess, self.model_curve_ODR, self.num_free_params = \

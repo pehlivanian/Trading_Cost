@@ -10,7 +10,6 @@ from numpy import nan as NA
 import matplotlib.pyplot as plt
 from datetime import datetime
 from dateutil.parser import parse
-import scikits.statsmodels.api as sm
 import scipy.odr.odrpack as odr
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.font_manager
