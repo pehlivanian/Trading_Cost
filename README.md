@@ -23,8 +23,7 @@ parsimonious and accurate specification of the well-recognized
 concavity of trading cost in duration pov.
 
 ### Empircal cost, model fits by Percentage Of Volume
-![plot](https://github.com/pehlivanian/Trading_Cost/blob/master/docs/figs/fig2.jpg
-?raw=true)
+![plot](https://github.com/pehlivanian/Trading_Cost/blob/master/docs/figs/fig2.jpg?raw=true)
 
 ---
 
