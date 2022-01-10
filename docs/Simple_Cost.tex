@@ -18,6 +18,7 @@
 
 \title{Simple Cost Model}
 \author{Charles Pehlivanian}
+\date{May 20, 2016}
 
 \maketitle
 
@@ -51,21 +52,24 @@ TOTAL & & 45690\\
 \label{tab:template}
 \end{table}
 
-The trade universe consists of the Firm's {\em BOLT} orders, which are arrival-price-benchmarked and attempt to minimize implementation shortfall. See any standard textbook. The remainder of the trades are {\em STROB} trades which attempt to replicate vwap (or twap, without the volume curve) over the trading window.
+The trade universe consists of the Firm's {\em BOLT} orders, which are arrival-price-benchmarked and attempt to minimize implementation shortfall. See any standard textbook. The remainder of the trades are {\em STROBE} trades which attempt to replicate vwap (or twap, if no volume curve scheduling is used) over the trading window.
 
 Define
 
-\begin{align}
-Cost &=& 1e4 * Sidesign * (vwap - arrival price)/arrival price\\
-POV &=& (parent order participation) * (duration) * (duration wtd volatility)\\
-\end{align}
+\begin{align*}
+cost &=& 1e4 * sidesign * (vwap - arrival\textunderscore price)/arrival\textunderscore price\\
+pov &=& (parent\textunderscore order\textunderscore participation) * (duration) * (duration\textunderscore wtd\textunderscore volatility)\\
+S &=& mid\textunderscore market\textunderscore spread\\
+\end{align*}
 
 where
 
-\begin{align}
+\begin{align*}
 vwap &= \frac{1}{\sum_{i=0}^{n}v_i}\sum_{i=0}^{n}p_i v_i\\
-arrival price &= midprice at order conception\\
-\end{align}
+arrival\textunderscore price &= \text{midprice at order conception}\\
+duration &= \text{length of in sample order in munutes}\\
+mid\textunderscore market\textunderscore spread &= \text{avg spread in basis points for underlying market}\\
+\end{align*}
 
 etc.
 
@@ -74,7 +78,7 @@ etc.
 The model is a power law in the POV factor, with constant, and spread-based additional summands. After consideration of several models, this was found to give the best fits (see following for basic summary metrics) without sacrificing simplicity. In summary
 
 \begin{align}
-Cost = C + \theta S + \beta X^{\gamma} 
+Cost = C + \theta S + \beta pov^{\gamma} 
 \end{align}
 
 The model fits were carried out in Python using the {\em scipy.ODR} Orthogonal Distance Regression module.
@@ -112,7 +116,8 @@ Coefficients by Instrument Class.
 
 Empirical v Theoretical Plots,, Empirical plots are binned averages.
 
-
+\section*{Next Steps}
+Calibrate intra-order trading cost model.
 
 \bibliographystyle{plain}
 \bibliography{bib}
