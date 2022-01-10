@@ -22,8 +22,12 @@ The model chosen was a power-law in the features, as this was the most
 parsimonious and accurate specification of the well-recognized
 concavity of trading cost in duration pov.
 
-### Empircal cost, model fits by Percentage Of Volume
+### Empircal cost, model fits by percentage Of volume (pov)
 ![plot](https://github.com/pehlivanian/Trading_Cost/blob/master/docs/figs/fig2.jpg?raw=true)
+
+### Additional diagnostics, trade universe details across all CME futures classes
+![plot](https://github.com/pehlivanian/Trading_Cost/blob/master/figs/model_diagnostic_with_intcpt?raw=true)
+
 
 ---
 
