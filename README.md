@@ -26,7 +26,7 @@ concavity of trading cost in duration pov.
 ![plot](https://github.com/pehlivanian/Trading_Cost/blob/master/docs/figs/fig2.jpg?raw=true)
 
 ### Additional diagnostics, trade universe details across all CME futures classes
-![plot](https://github.com/pehlivanian/Trading_Cost/blob/master/figs/model_diagnostic_with_intcpt?raw=true)
+![plot](https://github.com/pehlivanian/Trading_Cost/blob/master/figs/model_diagnostic_with_intcpt.jpg?raw=true)
 
 
 ---
